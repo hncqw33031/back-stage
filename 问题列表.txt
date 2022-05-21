@@ -1,0 +1,23 @@
+- 推荐安装NPM版本为：v11.15.0
+ 	1
+- 安装NPM完成之后，继续安装CNPM，CNPM可以解决NPM下载依赖过慢问题
+    npm install -g cnpm --registry=https://registry.npm.taobao.org
+
+- 查询CNPM版本：
+    cnpm -v
+
+- 项目初始化
+    cnpm install
+
+- 项目打包
+    cnpm run build
+
+- 开发模式运行项目
+    cnpm start
+
+- ERROR: CAN'T FIND PYTHON EXECUTABLE "PYTHON", YOU CAN SET THE PYTHON ENV VARIABLE
+    1. Linux自行安装Python2.7版本
+    2. Windows可以使用 cnpm install --global --production windows-build-tools 来安装
+
+
+
